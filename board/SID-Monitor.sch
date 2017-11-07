@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="8.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -542,11 +542,11 @@ TE Connectivity 5414373-1</description>
 <wire x1="5.08" y1="3.81" x2="-5.08" y2="3.81" width="0.3048" layer="21"/>
 <wire x1="-5.08" y1="3.81" x2="-6.35" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="-6.35" y1="3.81" x2="-6.35" y2="-10.16" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="3.81" x2="-5.08" y2="17.78" width="0.2032" layer="21"/>
-<wire x1="-5.08" y1="17.78" x2="5.08" y2="17.78" width="0.2032" layer="21"/>
-<wire x1="5.08" y1="17.78" x2="5.08" y2="3.81" width="0.2032" layer="21"/>
-<circle x="0" y="12.51" radius="1.26" width="0" layer="21"/>
-<text x="-1.905" y="-12.446" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="17.78" width="0.2032" layer="51"/>
+<wire x1="-5.08" y1="17.78" x2="5.08" y2="17.78" width="0.2032" layer="51"/>
+<wire x1="5.08" y1="17.78" x2="5.08" y2="3.81" width="0.2032" layer="51"/>
+<circle x="0" y="12.51" radius="1.26" width="0" layer="51"/>
+<text x="0" y="-11.43" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 <pad name="1" x="-3.81" y="0" drill="1.778" rot="R90"/>
 <pad name="2" x="3.81" y="0" drill="1.778" rot="R90"/>
 <pad name="3" x="0" y="-7.62" drill="1.1938"/>
@@ -557,7 +557,7 @@ TE Connectivity 5414373-1</description>
 <circle x="0" y="0" radius="1.4199" width="0.0002" layer="21"/>
 <pad name="1" x="0" y="1.27" drill="0.7"/>
 <pad name="2" x="0" y="-1.27" drill="0.7"/>
-<text x="-0.889" y="0.127" size="0.4064" layer="25">&gt;NAME</text>
+<text x="0" y="2.286" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
 </package>
 <package name="TO92-INLINE">
 <description>0.1" pitch</description>
@@ -860,112 +860,95 @@ TE Connectivity 5414373-1</description>
 <text x="-2.54" y="-2.413" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 <package name="PHOTON">
-<pad name="1" x="1.27" y="32.258" drill="1.016" diameter="1.8796"/>
-<pad name="2" x="1.27" y="29.718" drill="1.016" diameter="1.8796"/>
-<pad name="3" x="1.27" y="27.178" drill="1.016" diameter="1.8796"/>
-<pad name="4" x="1.27" y="24.638" drill="1.016" diameter="1.8796"/>
-<pad name="5" x="1.27" y="22.098" drill="1.016" diameter="1.8796"/>
-<pad name="6" x="1.27" y="19.558" drill="1.016" diameter="1.8796"/>
-<pad name="7" x="1.27" y="17.018" drill="1.016" diameter="1.8796"/>
-<pad name="8" x="1.27" y="14.478" drill="1.016" diameter="1.8796"/>
-<pad name="9" x="1.27" y="11.938" drill="1.016" diameter="1.8796"/>
-<pad name="10" x="1.27" y="9.398" drill="1.016" diameter="1.8796"/>
-<pad name="11" x="1.27" y="6.858" drill="1.016" diameter="1.8796"/>
-<pad name="12" x="1.27" y="4.318" drill="1.016" diameter="1.8796"/>
-<text x="2.54" y="-1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="1.016" y1="16.764" x2="1.524" y2="17.272" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="19.304" x2="1.524" y2="19.812" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="21.844" x2="1.524" y2="22.352" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="24.384" x2="1.524" y2="24.892" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="26.924" x2="1.524" y2="27.432" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="29.464" x2="1.524" y2="29.972" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="32.004" x2="1.524" y2="32.512" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="14.224" x2="1.524" y2="14.732" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="11.684" x2="1.524" y2="12.192" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="9.144" x2="1.524" y2="9.652" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="6.604" x2="1.524" y2="7.112" layer="51" rot="R270"/>
-<rectangle x1="1.016" y1="4.064" x2="1.524" y2="4.572" layer="51" rot="R270"/>
-<pad name="13" x="19.05" y="4.318" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="14" x="19.05" y="6.858" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="15" x="19.05" y="9.398" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="16" x="19.05" y="11.938" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="17" x="19.05" y="14.478" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="18" x="19.05" y="17.018" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="19" x="19.05" y="19.558" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="20" x="19.05" y="22.098" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="21" x="19.05" y="24.638" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="22" x="19.05" y="27.178" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="23" x="19.05" y="29.718" drill="1.016" diameter="1.8796" rot="R180"/>
-<pad name="24" x="19.05" y="32.258" drill="1.016" diameter="1.8796" rot="R180"/>
-<text x="2.54" y="-3.302" size="1.27" layer="27" rot="SR0">&gt;VALUE</text>
-<rectangle x1="18.796" y1="19.304" x2="19.304" y2="19.812" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="16.764" x2="19.304" y2="17.272" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="14.224" x2="19.304" y2="14.732" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="11.684" x2="19.304" y2="12.192" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="9.144" x2="19.304" y2="9.652" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="6.604" x2="19.304" y2="7.112" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="4.064" x2="19.304" y2="4.572" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="21.844" x2="19.304" y2="22.352" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="24.384" x2="19.304" y2="24.892" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="26.924" x2="19.304" y2="27.432" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="29.464" x2="19.304" y2="29.972" layer="51" rot="R90"/>
-<rectangle x1="18.796" y1="32.004" x2="19.304" y2="32.512" layer="51" rot="R90"/>
-<wire x1="20.32" y1="33.528" x2="20.32" y2="36.576" width="0.3048" layer="21"/>
-<wire x1="0" y1="36.576" x2="0" y2="33.528" width="0.3048" layer="21"/>
-<wire x1="6.096" y1="38.481" x2="6.096" y2="36.576" width="0.3048" layer="21"/>
-<wire x1="14.224" y1="36.576" x2="14.224" y2="38.481" width="0.3048" layer="21"/>
-<wire x1="14.224" y1="38.481" x2="6.096" y2="38.481" width="0.3048" layer="21"/>
-<wire x1="0" y1="36.576" x2="6.096" y2="36.576" width="0.3048" layer="21"/>
-<wire x1="14.224" y1="36.576" x2="20.32" y2="36.576" width="0.3048" layer="21"/>
-<wire x1="0" y1="3.048" x2="1.524" y2="0" width="0.3048" layer="21"/>
-<wire x1="1.524" y1="0" x2="18.796" y2="0" width="0.3048" layer="21"/>
-<wire x1="18.796" y1="0" x2="20.32" y2="3.048" width="0.3048" layer="21"/>
-<wire x1="0" y1="33.528" x2="0" y2="3.048" width="0.3048" layer="21"/>
-<wire x1="0" y1="3.048" x2="2.54" y2="3.048" width="0.3048" layer="21"/>
-<wire x1="2.54" y1="3.048" x2="2.54" y2="33.528" width="0.3048" layer="21"/>
-<wire x1="2.54" y1="33.528" x2="0" y2="33.528" width="0.3048" layer="21"/>
-<wire x1="20.32" y1="33.528" x2="20.32" y2="3.048" width="0.3048" layer="21"/>
-<wire x1="20.32" y1="3.048" x2="17.78" y2="3.048" width="0.3048" layer="21"/>
-<wire x1="17.78" y1="33.528" x2="20.32" y2="33.528" width="0.3048" layer="21"/>
-<wire x1="0" y1="3.048" x2="1.524" y2="0" width="0.3048" layer="51"/>
-<wire x1="1.524" y1="0" x2="18.796" y2="0" width="0.3048" layer="51"/>
-<wire x1="18.796" y1="0" x2="20.32" y2="3.048" width="0.3048" layer="51"/>
-<text x="19.05" y="4.064" size="0.6096" layer="51" font="vector">13</text>
-<text x="3.302" y="0.381" size="0.6096" layer="51" font="vector">GROUND PLANE
+<pad name="1" x="-8.89" y="13.97" drill="1"/>
+<pad name="2" x="-8.89" y="11.43" drill="1"/>
+<pad name="3" x="-8.89" y="8.89" drill="1"/>
+<pad name="4" x="-8.89" y="6.35" drill="1"/>
+<pad name="5" x="-8.89" y="3.81" drill="1"/>
+<pad name="6" x="-8.89" y="1.27" drill="1"/>
+<pad name="7" x="-8.89" y="-1.27" drill="1"/>
+<pad name="8" x="-8.89" y="-3.81" drill="1"/>
+<pad name="9" x="-8.89" y="-6.35" drill="1"/>
+<pad name="10" x="-8.89" y="-8.89" drill="1"/>
+<pad name="11" x="-8.89" y="-11.43" drill="1"/>
+<pad name="12" x="-8.89" y="-13.97" drill="1"/>
+<text x="0" y="13.589" size="0.8128" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<rectangle x1="-9.144" y1="-1.524" x2="-8.636" y2="-1.016" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="1.016" x2="-8.636" y2="1.524" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="3.556" x2="-8.636" y2="4.064" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="6.096" x2="-8.636" y2="6.604" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="8.636" x2="-8.636" y2="9.144" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="11.176" x2="-8.636" y2="11.684" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="13.716" x2="-8.636" y2="14.224" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="-4.064" x2="-8.636" y2="-3.556" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="-6.604" x2="-8.636" y2="-6.096" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="-9.144" x2="-8.636" y2="-8.636" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="-11.684" x2="-8.636" y2="-11.176" layer="51" rot="R270"/>
+<rectangle x1="-9.144" y1="-14.224" x2="-8.636" y2="-13.716" layer="51" rot="R270"/>
+<pad name="13" x="8.89" y="-13.97" drill="1" rot="R180"/>
+<pad name="14" x="8.89" y="-11.43" drill="1" rot="R180"/>
+<pad name="15" x="8.89" y="-8.89" drill="1" rot="R180"/>
+<pad name="16" x="8.89" y="-6.35" drill="1" rot="R180"/>
+<pad name="17" x="8.89" y="-3.81" drill="1" rot="R180"/>
+<pad name="18" x="8.89" y="-1.27" drill="1" rot="R180"/>
+<pad name="19" x="8.89" y="1.27" drill="1" rot="R180"/>
+<pad name="20" x="8.89" y="3.81" drill="1" rot="R180"/>
+<pad name="21" x="8.89" y="6.35" drill="1" rot="R180"/>
+<pad name="22" x="8.89" y="8.89" drill="1" rot="R180"/>
+<pad name="23" x="8.89" y="11.43" drill="1" rot="R180"/>
+<pad name="24" x="8.89" y="13.97" drill="1" rot="R180"/>
+<text x="0" y="12.065" size="0.8128" layer="27" rot="SR0" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="8.636" y1="1.016" x2="9.144" y2="1.524" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="-1.524" x2="9.144" y2="-1.016" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="-4.064" x2="9.144" y2="-3.556" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="-6.604" x2="9.144" y2="-6.096" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="-9.144" x2="9.144" y2="-8.636" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="-11.684" x2="9.144" y2="-11.176" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="-14.224" x2="9.144" y2="-13.716" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="3.556" x2="9.144" y2="4.064" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="6.096" x2="9.144" y2="6.604" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="8.636" x2="9.144" y2="9.144" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="11.176" x2="9.144" y2="11.684" layer="51" rot="R90"/>
+<rectangle x1="8.636" y1="13.716" x2="9.144" y2="14.224" layer="51" rot="R90"/>
+<wire x1="-7.62" y1="-14.605" x2="-7.62" y2="14.605" width="0.3048" layer="21"/>
+<wire x1="-10.16" y1="-15.24" x2="-8.636" y2="-18.288" width="0.3048" layer="51"/>
+<wire x1="-8.636" y1="-18.288" x2="8.636" y2="-18.288" width="0.3048" layer="51"/>
+<wire x1="8.636" y1="-18.288" x2="10.16" y2="-15.24" width="0.3048" layer="51"/>
+<text x="8.89" y="-14.224" size="0.6096" layer="51" font="vector">13</text>
+<text x="-6.858" y="-17.907" size="0.6096" layer="51" font="vector">GROUND PLANE
 AND SIGNAL KEEP OUT
 RECOMMENDED ON ALL LAYERS</text>
-<wire x1="1.524" y1="3.048" x2="1.524" y2="-3.556" width="0.127" layer="51" style="shortdash"/>
-<wire x1="1.524" y1="-3.556" x2="18.796" y2="-3.556" width="0.127" layer="51" style="shortdash"/>
-<wire x1="18.796" y1="-3.556" x2="18.796" y2="3.048" width="0.127" layer="51" style="shortdash"/>
-<wire x1="18.796" y1="3.048" x2="17.78" y2="3.048" width="0.127" layer="51" style="shortdash"/>
-<wire x1="17.78" y1="3.048" x2="17.78" y2="5.588" width="0.127" layer="51" style="shortdash"/>
-<wire x1="17.78" y1="5.588" x2="2.54" y2="5.588" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.54" y1="5.588" x2="2.54" y2="3.048" width="0.127" layer="51" style="shortdash"/>
-<wire x1="2.54" y1="3.048" x2="1.524" y2="3.048" width="0.127" layer="51" style="shortdash"/>
-<wire x1="17.78" y1="3.048" x2="17.78" y2="33.528" width="0.3048" layer="21"/>
-<wire x1="0" y1="3.048" x2="0" y2="33.528" width="0.3048" layer="51"/>
-<wire x1="0" y1="33.528" x2="0" y2="36.576" width="0.3048" layer="51"/>
-<wire x1="0" y1="36.576" x2="6.096" y2="36.576" width="0.3048" layer="51"/>
-<wire x1="6.096" y1="36.576" x2="6.096" y2="38.481" width="0.3048" layer="51"/>
-<wire x1="6.096" y1="38.481" x2="14.224" y2="38.481" width="0.3048" layer="51"/>
-<wire x1="14.224" y1="38.481" x2="14.224" y2="36.576" width="0.3048" layer="51"/>
-<wire x1="14.224" y1="36.576" x2="20.32" y2="36.576" width="0.3048" layer="51"/>
-<wire x1="20.32" y1="36.576" x2="20.32" y2="33.528" width="0.3048" layer="51"/>
-<rectangle x1="1.524" y1="-3.556" x2="18.796" y2="3.048" layer="39"/>
-<rectangle x1="2.54" y1="3.048" x2="17.78" y2="5.588" layer="39"/>
-<rectangle x1="2.54" y1="3.048" x2="17.78" y2="5.588" layer="40"/>
-<rectangle x1="1.524" y1="-3.556" x2="18.796" y2="3.048" layer="40"/>
-<text x="2.794" y="32.004" size="0.6096" layer="51" font="vector">1</text>
-<text x="2.794" y="4.064" size="0.6096" layer="51" font="vector">12</text>
-<text x="16.51" y="4.064" size="0.6096" layer="51" font="vector">13</text>
-<text x="16.51" y="32.004" size="0.6096" layer="51" font="vector">24</text>
-<wire x1="20.32" y1="33.528" x2="20.32" y2="3.048" width="0.3048" layer="51"/>
-<wire x1="0" y1="33.528" x2="2.54" y2="33.528" width="0.3048" layer="51"/>
-<wire x1="2.54" y1="33.528" x2="2.54" y2="3.048" width="0.3048" layer="51"/>
-<wire x1="2.54" y1="3.048" x2="0" y2="3.048" width="0.3048" layer="51"/>
-<wire x1="20.32" y1="3.048" x2="17.78" y2="3.048" width="0.3048" layer="51"/>
-<wire x1="17.78" y1="3.048" x2="17.78" y2="33.528" width="0.3048" layer="51"/>
-<wire x1="17.78" y1="33.528" x2="20.32" y2="33.528" width="0.3048" layer="51"/>
+<wire x1="-8.636" y1="-15.24" x2="-8.636" y2="-21.844" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-8.636" y1="-21.844" x2="8.636" y2="-21.844" width="0.127" layer="51" style="shortdash"/>
+<wire x1="8.636" y1="-21.844" x2="8.636" y2="-15.24" width="0.127" layer="51" style="shortdash"/>
+<wire x1="8.636" y1="-15.24" x2="7.62" y2="-15.24" width="0.127" layer="51" style="shortdash"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="-12.7" width="0.127" layer="51" style="shortdash"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="-15.24" width="0.127" layer="51" style="shortdash"/>
+<wire x1="-7.62" y1="-15.24" x2="-8.636" y2="-15.24" width="0.127" layer="51" style="shortdash"/>
+<wire x1="7.62" y1="-14.605" x2="7.62" y2="14.605" width="0.3048" layer="21"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="15.24" width="0.3048" layer="51"/>
+<wire x1="-10.16" y1="15.24" x2="-10.16" y2="18.288" width="0.3048" layer="51"/>
+<wire x1="-10.16" y1="18.288" x2="-4.064" y2="18.288" width="0.3048" layer="51"/>
+<wire x1="-4.064" y1="18.288" x2="-4.064" y2="20.193" width="0.3048" layer="51"/>
+<wire x1="-4.064" y1="20.193" x2="4.064" y2="20.193" width="0.3048" layer="51"/>
+<wire x1="4.064" y1="20.193" x2="4.064" y2="18.288" width="0.3048" layer="51"/>
+<wire x1="4.064" y1="18.288" x2="10.16" y2="18.288" width="0.3048" layer="51"/>
+<wire x1="10.16" y1="18.288" x2="10.16" y2="15.24" width="0.3048" layer="51"/>
+<rectangle x1="-8.636" y1="-21.844" x2="8.636" y2="-15.24" layer="39"/>
+<rectangle x1="-7.62" y1="-15.24" x2="7.62" y2="-12.7" layer="40"/>
+<rectangle x1="-8.636" y1="-21.844" x2="8.636" y2="-15.24" layer="40"/>
+<text x="-7.239" y="13.716" size="0.6096" layer="21" font="vector">1</text>
+<text x="-7.239" y="-14.224" size="0.6096" layer="51" font="vector">12</text>
+<text x="6.35" y="-14.224" size="0.6096" layer="51" font="vector">13</text>
+<text x="6.35" y="13.716" size="0.6096" layer="51" font="vector">24</text>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-15.24" width="0.3048" layer="51"/>
+<wire x1="-10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.3048" layer="51"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.3048" layer="51"/>
+<wire x1="-7.62" y1="-15.24" x2="-10.16" y2="-15.24" width="0.3048" layer="51"/>
+<wire x1="10.16" y1="-15.24" x2="7.62" y2="-15.24" width="0.3048" layer="51"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.3048" layer="51"/>
+<wire x1="7.62" y1="15.24" x2="10.16" y2="15.24" width="0.3048" layer="51"/>
 </package>
 <package name="CAPACITOR-5MM">
 <pad name="1" x="-2.54" y="0" drill="0.8"/>
@@ -985,6 +968,40 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="3.556" y1="-1.27" x2="-3.556" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-3.556" y1="-1.27" x2="-3.81" y2="-1.016" width="0.127" layer="21" curve="-90"/>
 <wire x1="-3.81" y1="-1.016" x2="-3.81" y2="1.016" width="0.127" layer="21"/>
+</package>
+<package name="CAPACITOR-1210">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-2.473" y1="1.483" x2="2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-1.483" x2="-2.473" y2="-1.483" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-1.483" x2="-2.473" y2="1.483" width="0.0508" layer="39"/>
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<wire x1="2.473" y1="1.483" x2="2.473" y2="-1.483" width="0.0508" layer="39"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="0" y="1.651" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0.127" y="-2.54" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+</package>
+<package name="CAPACITOR-0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
+chip</description>
+<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.8128" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.651" size="0.8128" layer="27" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -1266,13 +1283,13 @@ RECOMMENDED ON ALL LAYERS</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CAP-POL-*" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR-POLARIZED" prefix="C" uservalue="yes">
 <description>Polarized Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAP-POL" x="0" y="0"/>
 </gates>
 <devices>
-<device name="2.5-5" package="CAP-POL-2.5-5">
+<device name="-2.5-5" package="CAP-POL-2.5-5">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1281,7 +1298,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5-14-HORZ" package="CAP-POL-5-14-HORZ">
+<device name="-5-14-HORZ" package="CAP-POL-5-14-HORZ">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1290,7 +1307,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5-10" package="CAP-POL-5-10">
+<device name="-5-10" package="CAP-POL-5-10">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1299,7 +1316,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5-8" package="CAP-POL-5-8">
+<device name="-5-8" package="CAP-POL-5-8">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1308,7 +1325,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2.5-6" package="CAP-POL-2.5-6">
+<device name="-2.5-6" package="CAP-POL-2.5-6">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1317,7 +1334,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="3.5-8" package="CAP-POL-3.5-8">
+<device name="-3.5-8" package="CAP-POL-3.5-8">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1326,7 +1343,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="5-13" package="CAP-POL-5-13">
+<device name="-5-13" package="CAP-POL-5-13">
 <connects>
 <connect gate="G$1" pin="+" pad="+"/>
 <connect gate="G$1" pin="-" pad="-"/>
@@ -1350,13 +1367,13 @@ RECOMMENDED ON ALL LAYERS</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAPACITOR-*" prefix="C" uservalue="yes">
+<deviceset name="CAPACITOR" prefix="C" uservalue="yes">
 <description>Ceramic Capacitor</description>
 <gates>
 <gate name="G$1" symbol="CAPACITOR" x="-30.48" y="5.08"/>
 </gates>
 <devices>
-<device name="5MM" package="CAPACITOR-5MM">
+<device name="-5MM" package="CAPACITOR-5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1365,7 +1382,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="2.5MM" package="CAPACITOR-2.5MM">
+<device name="-2.5MM" package="CAPACITOR-2.5MM">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1374,7 +1391,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="0805" package="CAPACITOR-0805">
+<device name="-0805" package="CAPACITOR-0805">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1383,7 +1400,25 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1206" package="CAPACITOR-1206">
+<device name="-1206" package="CAPACITOR-1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1210" package="CAPACITOR-1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-0603" package="CAPACITOR-0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1399,7 +1434,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
-<device name="1N4001" package="DO-41">
+<device name="-1N4001" package="DO-41">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
@@ -1408,7 +1443,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="DO214AC" package="DO-214AC">
+<device name="-DO214AC" package="DO-214AC">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
@@ -1417,7 +1452,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <technology name=""/>
 </technologies>
 </device>
-<device name="1N4148" package="DIODE-DO-35">
+<device name="-1N4148" package="DIODE-DO-35">
 <connects>
 <connect gate="G$1" pin="+" pad="A"/>
 <connect gate="G$1" pin="-" pad="C"/>
@@ -1811,25 +1846,25 @@ RECOMMENDED ON ALL LAYERS</text>
 </class>
 </classes>
 <parts>
-<part name="C101" library="SaintGimp" deviceset="CAP-POL-*" device="5-13" value="2200uF"/>
-<part name="C102" library="SaintGimp" deviceset="CAP-POL-*" device="5-13" value="2200uF"/>
+<part name="C101" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-5-13" value="2200uF"/>
+<part name="C102" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-5-13" value="2200uF"/>
 <part name="GND102" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C103" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="C104" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="D101" library="SaintGimp" deviceset="DIODE" device="1N4001" value="1N4001"/>
-<part name="D102" library="SaintGimp" deviceset="DIODE" device="1N4001" value="1N4001"/>
+<part name="C103" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="C104" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="D101" library="SaintGimp" deviceset="DIODE" device="-1N4001" value="1N4001"/>
+<part name="D102" library="SaintGimp" deviceset="DIODE" device="-1N4001" value="1N4001"/>
 <part name="J101" library="SaintGimp" deviceset="POWERJACK" device="-PTH"/>
 <part name="GND101" library="SaintGimp" deviceset="GND" device=""/>
 <part name="IC1" library="SaintGimp" deviceset="LM317" device=""/>
 <part name="IC2" library="SaintGimp" deviceset="LM337" device=""/>
-<part name="C107" library="SaintGimp" deviceset="CAP-POL-*" device="3.5-8" value="470uF"/>
-<part name="C108" library="SaintGimp" deviceset="CAP-POL-*" device="3.5-8" value="470uF"/>
-<part name="C109" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="C110" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="D104" library="SaintGimp" deviceset="DIODE" device="1N4001" value="1N4001"/>
-<part name="D103" library="SaintGimp" deviceset="DIODE" device="1N4001" value="1N4001"/>
-<part name="D106" library="SaintGimp" deviceset="DIODE" device="1N4001" value="1N4001"/>
-<part name="D105" library="SaintGimp" deviceset="DIODE" device="1N4001" value="1N4001"/>
+<part name="C107" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-3.5-8" value="470uF"/>
+<part name="C108" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-3.5-8" value="470uF"/>
+<part name="C109" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="C110" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="D104" library="SaintGimp" deviceset="DIODE" device="-1N4001" value="1N4001"/>
+<part name="D103" library="SaintGimp" deviceset="DIODE" device="-1N4001" value="1N4001"/>
+<part name="D106" library="SaintGimp" deviceset="DIODE" device="-1N4001" value="1N4001"/>
+<part name="D105" library="SaintGimp" deviceset="DIODE" device="-1N4001" value="1N4001"/>
 <part name="P+101" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="P-101" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="GND103" library="SaintGimp" deviceset="GND" device=""/>
@@ -1841,7 +1876,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="Q202" library="SaintGimp" deviceset="2N2222" device=""/>
 <part name="P+202" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="P-202" library="SaintGimp" deviceset="-5V" device=""/>
-<part name="C301" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="47nF"/>
+<part name="C301" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="47nF"/>
 <part name="R301" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="1k"/>
 <part name="GND204" library="SaintGimp" deviceset="GND" device=""/>
 <part name="IC3" library="SaintGimp" deviceset="TLE2082" device=""/>
@@ -1850,8 +1885,8 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="R302" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="1k"/>
 <part name="GND205" library="SaintGimp" deviceset="GND" device=""/>
 <part name="R303" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="20k"/>
-<part name="C302" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="68pF"/>
-<part name="C303" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C302" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="68pF"/>
+<part name="C303" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="R305" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
 <part name="R304" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="4.7k"/>
 <part name="GND206" library="SaintGimp" deviceset="GND" device=""/>
@@ -1863,8 +1898,8 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="RV302" library="SaintGimp" deviceset="POT" device="TRIM" value="250K"/>
 <part name="P-205" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="P+205" library="SaintGimp" deviceset="+5V" device=""/>
-<part name="C304" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="C305" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C304" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="C305" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="R308" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
 <part name="GND211" library="SaintGimp" deviceset="GND" device=""/>
 <part name="JP401" library="SaintGimp" deviceset="JUMPER1" device=""/>
@@ -1875,7 +1910,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="R404" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="28.7k"/>
 <part name="RV401" library="SaintGimp" deviceset="POT" device="TRIM" value="5K"/>
 <part name="JP402" library="SaintGimp" deviceset="JUMPER1" device=""/>
-<part name="C405" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C405" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="R406" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="47k"/>
 <part name="R405" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="28.7k"/>
 <part name="R407" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
@@ -1886,18 +1921,18 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="P+209" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="GND215" library="SaintGimp" deviceset="GND" device=""/>
 <part name="JP403" library="SaintGimp" deviceset="JUMPER1" device=""/>
-<part name="C501" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C501" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="R502" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
 <part name="R501" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="4.7k"/>
 <part name="GND218" library="SaintGimp" deviceset="GND" device=""/>
 <part name="RV501" library="SaintGimp" deviceset="POT" device="TRIM" value="100K"/>
-<part name="C502" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C502" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="P+207" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="P-207" library="SaintGimp" deviceset="-5V" device=""/>
-<part name="C401" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="10uF"/>
-<part name="C402" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="10uF"/>
-<part name="C403" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="C404" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C401" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="10uF"/>
+<part name="C402" library="SaintGimp" deviceset="CAPACITOR" device="-5MM" value="10uF"/>
+<part name="C403" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="C404" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="GND214" library="SaintGimp" deviceset="GND" device=""/>
 <part name="TP401" library="SaintGimp" deviceset="TESTPOINT-*" device="TH"/>
 <part name="TP402" library="SaintGimp" deviceset="TESTPOINT-*" device="TH"/>
@@ -1914,13 +1949,13 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="R603" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
 <part name="R605" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
 <part name="R604" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
-<part name="D601" library="SaintGimp" deviceset="DIODE" device="1N4148" value="1N4148"/>
-<part name="D602" library="SaintGimp" deviceset="DIODE" device="1N4148" value="1N4148"/>
+<part name="D601" library="SaintGimp" deviceset="DIODE" device="-1N4148" value="1N4148"/>
+<part name="D602" library="SaintGimp" deviceset="DIODE" device="-1N4148" value="1N4148"/>
 <part name="R606" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
-<part name="C601" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="22pF"/>
+<part name="C601" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="22pF"/>
 <part name="R701" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="20k"/>
 <part name="R702" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="39k"/>
-<part name="C701" library="SaintGimp" deviceset="CAP-POL-*" device="3.5-8" value="470uF"/>
+<part name="C701" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-3.5-8" value="470uF"/>
 <part name="GND207" library="SaintGimp" deviceset="GND" device=""/>
 <part name="GND208" library="SaintGimp" deviceset="GND" device=""/>
 <part name="R801" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="1M"/>
@@ -1934,7 +1969,7 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="R805" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="1M"/>
 <part name="IC7" library="SaintGimp" deviceset="TLE2082" device=""/>
 <part name="R806" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="1M"/>
-<part name="C801" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C801" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="P+206" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="P-206" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="R902" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="90.9k"/>
@@ -1942,25 +1977,26 @@ RECOMMENDED ON ALL LAYERS</text>
 <part name="JP901" library="SaintGimp" deviceset="JUMPER1" device=""/>
 <part name="JP902" library="SaintGimp" deviceset="JUMPER1" device=""/>
 <part name="R901" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
-<part name="C901" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C901" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="GND213" library="SaintGimp" deviceset="GND" device=""/>
 <part name="IC8" library="SaintGimp" deviceset="TLE2082" device=""/>
 <part name="P+208" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="P-209" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="R904" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
-<part name="C902" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
-<part name="IC9" library="SaintGimp" deviceset="PHOTON" device="_WITH_HEADERS"/>
+<part name="C902" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
+<part name="IC9" library="SaintGimp" deviceset="PHOTON" device="_WITH_HEADERS" value="PHOTON"/>
 <part name="GND216" library="SaintGimp" deviceset="GND" device=""/>
 <part name="P+210" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="GND217" library="SaintGimp" deviceset="GND" device=""/>
-<part name="C1002" library="SaintGimp" deviceset="CAP-POL-*" device="3.5-8" value="100uF"/>
-<part name="C1001" library="SaintGimp" deviceset="CAPACITOR-*" device="2.5MM" value="0.1uF"/>
+<part name="C1002" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-3.5-8" value="100uF"/>
+<part name="C1001" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="RV101" library="SaintGimp" deviceset="POT" device="TRIM" value="1k"/>
-<part name="C105" library="SaintGimp" deviceset="CAP-POL-*" device="2.5-5" value="10uf"/>
+<part name="C105" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-2.5-5" value="10uf"/>
 <part name="R101" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="240"/>
 <part name="RV102" library="SaintGimp" deviceset="POT" device="TRIM" value="1k"/>
-<part name="C106" library="SaintGimp" deviceset="CAP-POL-*" device="2.5-5" value="10uf"/>
+<part name="C106" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-2.5-5" value="10uf"/>
 <part name="R102" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="240"/>
+<part name="GND1" library="SaintGimp" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2332,6 +2368,8 @@ RECOMMENDED ON ALL LAYERS</text>
 <instance part="GND217" gate="1" x="434.34" y="-12.7"/>
 <instance part="C1002" gate="G$1" x="383.54" y="5.08"/>
 <instance part="C1001" gate="G$1" x="373.38" y="2.54"/>
+<instance part="IC8" gate="B" x="332.74" y="-50.8"/>
+<instance part="GND1" gate="1" x="320.04" y="-50.8"/>
 </instances>
 <busses>
 </busses>
@@ -2437,6 +2475,11 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="383.54" y1="-2.54" x2="373.38" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="C1001" gate="G$1" pin="2"/>
 <wire x1="373.38" y1="-2.54" x2="373.38" y2="0" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="B" pin="+IN"/>
+<wire x1="325.12" y1="-48.26" x2="320.04" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -3205,6 +3248,15 @@ RECOMMENDED ON ALL LAYERS</text>
 <segment>
 <pinref part="IC8" gate="A" pin="V-"/>
 <pinref part="P-209" gate="G$1" pin="-5V"/>
+</segment>
+</net>
+<net name="N$39" class="0">
+<segment>
+<pinref part="IC8" gate="B" pin="OUT"/>
+<wire x1="340.36" y1="-50.8" x2="340.36" y2="-60.96" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="-60.96" x2="325.12" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="IC8" gate="B" pin="-IN"/>
+<wire x1="325.12" y1="-60.96" x2="325.12" y2="-53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
