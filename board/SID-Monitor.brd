@@ -151,6 +151,9 @@
 <wire x1="69.215" y1="0" x2="69.215" y2="104.14" width="0" layer="20"/>
 <wire x1="69.215" y1="104.14" x2="0" y2="104.14" width="0" layer="20"/>
 <wire x1="0" y1="104.14" x2="0" y2="0" width="0" layer="20"/>
+<text x="10.16" y="15.24" size="1.778" layer="21" rot="R90" align="center">SaintGimp
+SID-Monitor
+v1.0.0</text>
 </plain>
 <libraries>
 <library name="SaintGimp">
@@ -469,8 +472,8 @@ grid 2.54 mm</description>
 <wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
 <pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
 <pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.651" y="0" size="0.8128" layer="25" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
@@ -839,121 +842,294 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="28.178" y="87.36" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="27.035" y="89.138" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C302" library="SaintGimp" package="CAPACITOR-2.5MM" value="68pF" x="14.605" y="70.485" rot="R90"/>
-<element name="C303" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="20.955" y="70.485" rot="R90"/>
-<element name="C304" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="37.465" y="70.485" rot="R270"/>
-<element name="C305" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="46.355" y="70.485" rot="R270"/>
-<element name="C405" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="53.34" y="24.765"/>
-<element name="C501" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="66.04" y="59.055" rot="R90"/>
+<element name="C302" library="SaintGimp" package="CAPACITOR-2.5MM" value="68pF" x="14.605" y="70.485" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.605" y="73.279" size="0.8128" layer="25" align="bottom-center"/>
+</element>
+<element name="C303" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="20.955" y="70.485" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.955" y="73.279" size="0.8128" layer="25" align="bottom-center"/>
+</element>
+<element name="C304" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="37.465" y="70.485" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.465" y="73.279" size="0.8128" layer="25" align="bottom-center"/>
+</element>
+<element name="C305" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="46.355" y="70.485" smashed="yes" rot="R270">
+<attribute name="NAME" x="46.355" y="73.279" size="0.8128" layer="25" align="bottom-center"/>
+</element>
+<element name="C405" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="53.34" y="24.765" smashed="yes">
+<attribute name="NAME" x="56.261" y="24.892" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+</element>
+<element name="C501" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="66.04" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="66.167" y="62.738" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+</element>
 <element name="C502" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="66.04" y="70.485" rot="R270"/>
-<element name="C401" library="SaintGimp" package="CAPACITOR-5MM" value="10uF" x="44.45" y="50.165" rot="R180"/>
+<element name="C401" library="SaintGimp" package="CAPACITOR-5MM" value="10uF" x="44.45" y="50.165" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="52.451" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+</element>
 <element name="C402" library="SaintGimp" package="CAPACITOR-5MM" value="10uF" x="52.07" y="17.78" rot="R180"/>
-<element name="C403" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="45.72" y="46.99" rot="R180"/>
+<element name="C403" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="45.72" y="46.99" smashed="yes" rot="R180">
+<attribute name="NAME" x="42.926" y="46.99" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+</element>
 <element name="C102" library="SaintGimp" package="CAP-POL-5-13" value="2200uF" x="22.86" y="97.155" smashed="yes" rot="R90">
 <attribute name="NAME" x="28.178" y="101.33" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="27.035" y="103.108" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C404" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="45.72" y="17.78"/>
-<element name="C601" library="SaintGimp" package="CAPACITOR-2.5MM" value="22pF" x="63.5" y="19.685"/>
-<element name="C701" library="SaintGimp" package="CAP-POL-3.5-8" value="470uF" x="65.405" y="5.715" rot="R270"/>
-<element name="C801" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="54.61" y="5.715" rot="R270"/>
-<element name="C901" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="39.37" y="5.715" rot="R90"/>
-<element name="C902" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="25.4" y="17.145"/>
-<element name="C1002" library="SaintGimp" package="CAP-POL-3.5-8" value="100uF" x="17.78" y="45.085" rot="R90"/>
+<element name="C404" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="45.72" y="17.78" smashed="yes">
+<attribute name="NAME" x="42.926" y="17.78" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="C601" library="SaintGimp" package="CAPACITOR-2.5MM" value="22pF" x="63.5" y="19.685" smashed="yes">
+<attribute name="NAME" x="60.579" y="19.812" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="C701" library="SaintGimp" package="CAP-POL-3.5-8" value="470uF" x="65.405" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="64.516" y="0.635" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="62.23" y="2.032" size="0.8128" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="C801" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="54.61" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.483" y="8.636" size="0.8128" layer="25" align="bottom-center"/>
+</element>
+<element name="C901" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="39.37" y="5.715" smashed="yes" rot="R90">
+<attribute name="NAME" x="39.497" y="9.398" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+</element>
+<element name="C902" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="25.4" y="17.145" smashed="yes">
+<attribute name="NAME" x="22.479" y="17.272" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="C1002" library="SaintGimp" package="CAP-POL-3.5-8" value="100uF" x="17.78" y="45.085" smashed="yes" rot="R90">
+<attribute name="NAME" x="16.002" y="49.53" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="20.955" y="48.768" size="0.8128" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="C1001" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="2.54" y="36.83" rot="R180"/>
-<element name="C105" library="SaintGimp" package="CAP-POL-2.5-5" value="10uf" x="57.15" y="85.725" rot="R270"/>
+<element name="C105" library="SaintGimp" package="CAP-POL-2.5-5" value="10uf" x="57.15" y="85.725" smashed="yes" rot="R90">
+<attribute name="NAME" x="58.42" y="89.408" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="59.309" y="88.138" size="0.8128" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="C106" library="SaintGimp" package="CAP-POL-2.5-5" value="10uf" x="57.15" y="99.695" smashed="yes" rot="R90">
-<attribute name="NAME" x="55.88" y="102.108" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="56.134" y="102.616" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="59.309" y="102.108" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C103" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="31.75" y="80.01" rot="R90"/>
 <element name="C104" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="31.75" y="93.98" rot="R90"/>
-<element name="C107" library="SaintGimp" package="CAP-POL-3.5-8" value="470uF" x="49.53" y="85.725" rot="R90"/>
+<element name="C107" library="SaintGimp" package="CAP-POL-3.5-8" value="470uF" x="49.53" y="85.725" smashed="yes" rot="R90">
+<attribute name="NAME" x="50.546" y="90.678" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="52.705" y="89.408" size="0.8128" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="C108" library="SaintGimp" package="CAP-POL-3.5-8" value="470uF" x="49.53" y="99.695" smashed="yes" rot="R90">
 <attribute name="NAME" x="52.324" y="102.616" size="0.8128" layer="25" ratio="10"/>
 <attribute name="VALUE" x="52.705" y="103.378" size="0.8128" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C109" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="49.53" y="79.375" rot="R180"/>
-<element name="C110" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="49.53" y="93.345"/>
-<element name="C301" library="SaintGimp" package="CAPACITOR-2.5MM" value="47nF" x="17.78" y="59.055" rot="R90"/>
+<element name="C110" library="SaintGimp" package="CAPACITOR-2.5MM" value="0.1uF" x="49.53" y="93.345" smashed="yes">
+<attribute name="NAME" x="46.609" y="93.472" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+</element>
+<element name="C301" library="SaintGimp" package="CAPACITOR-2.5MM" value="47nF" x="17.78" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.907" y="61.976" size="0.8128" layer="25" align="bottom-center"/>
+</element>
 <element name="D101" library="SaintGimp" package="DO-41" value="1N4001" x="13.97" y="83.185" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.557" y="83.185" size="0.8128" layer="25" ratio="11" rot="R270" align="bottom-center"/>
 </element>
-<element name="D102" library="SaintGimp" package="DO-41" value="1N4001" x="13.97" y="97.155" rot="R90"/>
+<element name="D102" library="SaintGimp" package="DO-41" value="1N4001" x="13.97" y="97.155" smashed="yes" rot="R270">
+<attribute name="NAME" x="11.557" y="97.155" size="0.8128" layer="25" ratio="11" rot="R270" align="bottom-center"/>
+</element>
 <element name="D104" library="SaintGimp" package="DO-41" value="1N4001" x="39.37" y="95.885" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.37" y="94.488" size="0.8128" layer="25" ratio="11" rot="R180" align="bottom-center"/>
 </element>
 <element name="D103" library="SaintGimp" package="DO-41" value="1N4001" x="39.37" y="81.915" smashed="yes" rot="R180">
 <attribute name="NAME" x="39.37" y="80.518" size="0.8128" layer="25" ratio="11" rot="R180" align="bottom-center"/>
 </element>
-<element name="D106" library="SaintGimp" package="DO-41" value="1N4001" x="39.37" y="92.075" smashed="yes">
-<attribute name="NAME" x="39.37" y="89.662" size="0.8128" layer="25" ratio="11" align="bottom-center"/>
+<element name="D106" library="SaintGimp" package="DO-41" value="1N4001" x="39.37" y="92.075" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="90.424" size="0.8128" layer="25" ratio="11" rot="R180" align="bottom-center"/>
 </element>
-<element name="D105" library="SaintGimp" package="DO-41" value="1N4001" x="39.37" y="78.105" smashed="yes">
-<attribute name="NAME" x="39.37" y="75.692" size="0.8128" layer="25" ratio="11" align="bottom-center"/>
+<element name="D105" library="SaintGimp" package="DO-41" value="1N4001" x="39.37" y="78.105" smashed="yes" rot="R180">
+<attribute name="NAME" x="39.37" y="76.454" size="0.8128" layer="25" ratio="11" rot="R180" align="bottom-center"/>
 </element>
-<element name="D601" library="SaintGimp" package="DIODE-DO-35" value="1N4148" x="63.5" y="42.545"/>
-<element name="D602" library="SaintGimp" package="DIODE-DO-35" value="1N4148" x="63.5" y="37.465" rot="R180"/>
+<element name="D601" library="SaintGimp" package="DIODE-DO-35" value="1N4148" x="63.5" y="42.545" smashed="yes">
+<attribute name="NAME" x="58.6232" y="41.1988" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="60.96" y="40.132" size="0.8128" layer="27" ratio="10"/>
+</element>
+<element name="D602" library="SaintGimp" package="DIODE-DO-35" value="1N4148" x="63.5" y="37.465" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.6232" y="36.1188" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="66.04" y="39.878" size="0.8128" layer="27" ratio="10" rot="R180"/>
+</element>
 <element name="GL201" library="SaintGimp" package="NEON-BULB" value="NEON-BULB" x="2.54" y="83.185" smashed="yes">
-<attribute name="NAME" x="1.524" y="83.185" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="NAME" x="2.413" y="80.772" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
 </element>
 <element name="IC1" library="SaintGimp" package="TO220BV" value="LM317" x="39.37" y="84.455" rot="R180"/>
 <element name="IC2" library="SaintGimp" package="TO220BV" value="LM337" x="39.37" y="98.425" rot="R180"/>
 <element name="IC3" library="SaintGimp" package="DIP08" value="TLE2082" x="27.94" y="69.215" rot="R270"/>
 <element name="IC4" library="SaintGimp" package="DIP08" value="TLE2082" x="55.88" y="69.215" rot="R270"/>
 <element name="IC5" library="SaintGimp" package="DIP20" value="MAX275ACP" x="43.18" y="32.385"/>
-<element name="IC6" library="SaintGimp" package="DIP08" value="TLE2082" x="63.5" y="26.035" rot="R180"/>
-<element name="IC7" library="SaintGimp" package="DIP08" value="TLE2082" x="45.72" y="5.715" rot="R90"/>
+<element name="IC6" library="SaintGimp" package="DIP08" value="TLE2082" x="63.5" y="26.035" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.961" y="28.575" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="66.167" y="26.416" size="0.8128" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="IC7" library="SaintGimp" package="DIP08" value="TLE2082" x="45.72" y="5.715" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.894" y="1.27" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="46.101" y="3.048" size="0.8128" layer="27" ratio="10" rot="R90"/>
+</element>
 <element name="IC8" library="SaintGimp" package="DIP08" value="TLE2082" x="27.94" y="23.495"/>
 <element name="J101" library="SaintGimp" package="POWER_JACK_PTH" value="POWERJACK-PTH" x="-5.08" y="99.695" rot="R270"/>
 <element name="JP401" library="SaintGimp" package="JUMPER1" value="" x="38.1" y="53.34" rot="R180"/>
-<element name="JP402" library="SaintGimp" package="JUMPER1" value="" x="53.34" y="20.955" rot="R270"/>
+<element name="JP402" library="SaintGimp" package="JUMPER1" value="" x="53.34" y="20.955" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.15" y="20.828" size="0.8128" layer="25" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="53.34" y="19.304" size="0.8128" layer="27" ratio="10" align="top-center"/>
+</element>
 <element name="JP403" library="SaintGimp" package="JUMPER1" value="" x="58.42" y="53.34"/>
-<element name="JP901" library="SaintGimp" package="JUMPER1" value="" x="33.02" y="5.715"/>
-<element name="JP902" library="SaintGimp" package="JUMPER1" value="" x="25.4" y="5.715"/>
+<element name="JP901" library="SaintGimp" package="JUMPER1" value="" x="33.02" y="5.715" smashed="yes">
+<attribute name="NAME" x="31.369" y="5.715" size="0.8128" layer="25" ratio="10" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="34.671" y="5.715" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center"/>
+</element>
+<element name="JP902" library="SaintGimp" package="JUMPER1" value="" x="25.4" y="5.715" smashed="yes">
+<attribute name="NAME" x="25.273" y="2.667" size="0.8128" layer="25" ratio="10" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="27.051" y="5.715" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center"/>
+</element>
 <element name="Q201" library="SaintGimp" package="TO92-INLINE" value="2N2222" x="7.62" y="79.375" rot="R90"/>
 <element name="Q202" library="SaintGimp" package="TO92-INLINE" value="2N2222" x="7.62" y="86.995" rot="R90"/>
-<element name="R301" library="SaintGimp" package="AXIAL-7.5MM" value="1k" x="20.955" y="59.055" rot="R90"/>
-<element name="R402" library="SaintGimp" package="AXIAL-7.5MM" value="75k" x="31.75" y="34.925" rot="R270"/>
-<element name="R403" library="SaintGimp" package="AXIAL-7.5MM" value="30.9k" x="36.83" y="34.925" rot="R270"/>
-<element name="R502" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="62.865" y="70.485" rot="R270"/>
-<element name="R404" library="SaintGimp" package="AXIAL-7.5MM" value="28.7k" x="34.29" y="34.925" rot="R270"/>
-<element name="R406" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="53.34" y="28.575" rot="R180"/>
-<element name="R405" library="SaintGimp" package="AXIAL-7.5MM" value="28.7k" x="52.07" y="34.925" rot="R90"/>
-<element name="R407" library="SaintGimp" package="AXIAL-7.5MM" value="75k" x="54.61" y="34.925" rot="R270"/>
-<element name="R408" library="SaintGimp" package="AXIAL-7.5MM" value="30.9k" x="49.53" y="34.925" rot="R90"/>
-<element name="R501" library="SaintGimp" package="AXIAL-7.5MM" value="4.7k" x="62.865" y="59.055" rot="R90"/>
-<element name="R309" library="SaintGimp" package="AXIAL-7.5MM" value="51" x="49.53" y="70.485" rot="R90"/>
-<element name="R302" library="SaintGimp" package="AXIAL-7.5MM" value="1k" x="14.605" y="59.055" rot="R90"/>
-<element name="R602" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="67.31" y="51.435" rot="R270"/>
-<element name="R601" library="SaintGimp" package="AXIAL-7.5MM" value="3.3k" x="63.5" y="32.385"/>
-<element name="R603" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="45.085" rot="R180"/>
-<element name="R605" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="34.925"/>
-<element name="R604" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="40.005" rot="R180"/>
-<element name="R606" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="17.145"/>
-<element name="R701" library="SaintGimp" package="AXIAL-7.5MM" value="20k" x="63.5" y="14.605" rot="R180"/>
-<element name="R702" library="SaintGimp" package="AXIAL-7.5MM" value="39k" x="63.5" y="12.065" rot="R180"/>
-<element name="R801" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="57.15" y="5.715" rot="R270"/>
-<element name="R303" library="SaintGimp" package="AXIAL-7.5MM" value="20k" x="17.78" y="70.485" rot="R90"/>
-<element name="R802" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="59.69" y="5.715" rot="R270"/>
-<element name="R803" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="25.4" y="12.065" rot="R180"/>
-<element name="R804" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="45.72" y="12.065" rot="R180"/>
-<element name="R805" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="45.72" y="14.605"/>
-<element name="R806" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="52.07" y="5.715" rot="R270"/>
-<element name="R902" library="SaintGimp" package="AXIAL-7.5MM" value="90.9k" x="36.83" y="5.715" rot="R270"/>
-<element name="R903" library="SaintGimp" package="AXIAL-7.5MM" value="30.1k" x="29.21" y="5.715" rot="R270"/>
-<element name="R901" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="21.59" y="5.715" rot="R270"/>
-<element name="R904" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="25.4" y="14.605" rot="R180"/>
+<element name="R301" library="SaintGimp" package="AXIAL-7.5MM" value="1k" x="20.955" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.955" y="63.881" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="21.463" y="59.055" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R402" library="SaintGimp" package="AXIAL-7.5MM" value="75k" x="31.75" y="34.925" smashed="yes" rot="R270">
+<attribute name="NAME" x="30.734" y="34.925" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="31.242" y="34.925" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R403" library="SaintGimp" package="AXIAL-7.5MM" value="30.9k" x="36.83" y="34.925" smashed="yes" rot="R270">
+<attribute name="NAME" x="37.846" y="34.925" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="36.322" y="34.925" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R502" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="62.865" y="70.485" smashed="yes" rot="R270">
+<attribute name="NAME" x="62.865" y="75.311" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="62.357" y="70.485" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R404" library="SaintGimp" package="AXIAL-7.5MM" value="28.7k" x="34.29" y="34.925" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.306" y="34.925" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="33.782" y="34.925" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R406" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="53.34" y="28.575" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.34" y="27.559" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="53.34" y="29.083" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R405" library="SaintGimp" package="AXIAL-7.5MM" value="28.7k" x="52.07" y="34.925" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.308" y="34.671" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="52.578" y="34.925" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R407" library="SaintGimp" package="AXIAL-7.5MM" value="75k" x="54.61" y="34.925" smashed="yes" rot="R270">
+<attribute name="NAME" x="55.626" y="34.925" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="54.102" y="34.925" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R408" library="SaintGimp" package="AXIAL-7.5MM" value="30.9k" x="49.53" y="34.925" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.514" y="34.925" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="50.038" y="34.925" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R501" library="SaintGimp" package="AXIAL-7.5MM" value="4.7k" x="62.865" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="62.865" y="53.467" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="63.373" y="59.055" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R309" library="SaintGimp" package="AXIAL-7.5MM" value="51" x="49.53" y="70.485" smashed="yes" rot="R90">
+<attribute name="NAME" x="49.657" y="65.532" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="50.038" y="70.485" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R302" library="SaintGimp" package="AXIAL-7.5MM" value="1k" x="14.605" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.605" y="63.881" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="15.113" y="59.055" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R602" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="67.31" y="51.435" smashed="yes" rot="R270">
+<attribute name="NAME" x="66.294" y="51.435" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="66.802" y="51.435" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R601" library="SaintGimp" package="AXIAL-7.5MM" value="3.3k" x="63.5" y="32.385" smashed="yes">
+<attribute name="NAME" x="58.547" y="32.258" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="31.877" size="0.8128" layer="21" ratio="10" align="bottom-center"/>
+</element>
+<element name="R603" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="45.085" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.5" y="46.101" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="45.593" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R605" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="34.925" smashed="yes">
+<attribute name="NAME" x="68.199" y="34.798" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="34.417" size="0.8128" layer="21" ratio="10" align="bottom-center"/>
+</element>
+<element name="R604" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="40.005" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.199" y="40.132" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="40.513" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R606" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="63.5" y="17.145" smashed="yes">
+<attribute name="NAME" x="58.547" y="17.018" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="16.637" size="0.8128" layer="21" ratio="10" align="bottom-center"/>
+</element>
+<element name="R701" library="SaintGimp" package="AXIAL-7.5MM" value="20k" x="63.5" y="14.605" smashed="yes" rot="R180">
+<attribute name="NAME" x="68.199" y="14.732" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="15.113" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R702" library="SaintGimp" package="AXIAL-7.5MM" value="39k" x="63.5" y="12.065" smashed="yes" rot="R180">
+<attribute name="NAME" x="58.039" y="11.938" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="63.5" y="12.573" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R801" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="57.15" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="57.277" y="0.254" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="56.642" y="5.715" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R303" library="SaintGimp" package="AXIAL-7.5MM" value="20k" x="17.78" y="70.485" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.653" y="75.438" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="18.288" y="70.485" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R802" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="59.69" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="60.706" y="5.715" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="59.182" y="5.715" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R803" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="25.4" y="12.065" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="11.049" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="25.4" y="12.573" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R804" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="45.72" y="12.065" smashed="yes" rot="R180">
+<attribute name="NAME" x="50.673" y="11.938" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="45.72" y="12.573" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
+<element name="R805" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="45.72" y="14.605" smashed="yes">
+<attribute name="NAME" x="45.72" y="15.621" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="45.72" y="14.097" size="0.8128" layer="21" ratio="10" align="bottom-center"/>
+</element>
+<element name="R806" library="SaintGimp" package="AXIAL-7.5MM" value="1M" x="52.07" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="52.197" y="0.254" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="51.562" y="5.715" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R902" library="SaintGimp" package="AXIAL-7.5MM" value="90.9k" x="36.83" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="35.052" y="5.715" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="36.322" y="5.715" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R903" library="SaintGimp" package="AXIAL-7.5MM" value="30.1k" x="29.21" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="27.432" y="5.715" size="0.8128" layer="25" rot="R270" align="bottom-center"/>
+<attribute name="VALUE" x="28.702" y="5.715" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R901" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="21.59" y="5.715" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.368" y="5.461" size="0.8128" layer="25" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="21.082" y="5.715" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
+<element name="R904" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="25.4" y="14.605" smashed="yes" rot="R180">
+<attribute name="NAME" x="25.4" y="13.589" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="25.4" y="15.113" size="0.8128" layer="21" ratio="10" rot="R180" align="bottom-center"/>
+</element>
 <element name="R101" library="SaintGimp" package="AXIAL-7.5MM" value="240" x="58.42" y="78.105" rot="R180"/>
-<element name="R305" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="34.29" y="70.485" rot="R270"/>
+<element name="R305" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="34.29" y="70.485" smashed="yes" rot="R270">
+<attribute name="NAME" x="34.163" y="75.438" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="33.782" y="70.485" size="0.8128" layer="21" ratio="10" rot="R270" align="bottom-center"/>
+</element>
 <element name="R102" library="SaintGimp" package="AXIAL-7.5MM" value="240" x="64.135" y="90.805" smashed="yes">
-<attribute name="NAME" x="64.135" y="91.821" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="NAME" x="61.595" y="88.773" size="0.8128" layer="25" align="bottom-center"/>
 <attribute name="VALUE" x="64.135" y="90.297" size="0.8128" layer="21" ratio="10" align="bottom-center"/>
 </element>
-<element name="R304" library="SaintGimp" package="AXIAL-7.5MM" value="4.7k" x="34.925" y="59.055" rot="R90"/>
-<element name="R307" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="40.64" y="70.485" rot="R90"/>
-<element name="R306" library="SaintGimp" package="AXIAL-7.5MM" value="4.7k" x="48.895" y="59.055" rot="R90"/>
-<element name="R308" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="43.18" y="70.485" rot="R90"/>
+<element name="R304" library="SaintGimp" package="AXIAL-7.5MM" value="4.7k" x="34.925" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.925" y="63.881" size="0.8128" layer="25" align="bottom-center"/>
+<attribute name="VALUE" x="35.433" y="59.055" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R307" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="40.64" y="70.485" smashed="yes" rot="R90">
+<attribute name="NAME" x="40.513" y="65.532" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="41.148" y="70.485" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R306" library="SaintGimp" package="AXIAL-7.5MM" value="4.7k" x="48.895" y="59.055" smashed="yes" rot="R90">
+<attribute name="NAME" x="48.895" y="54.229" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="49.403" y="59.055" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
+<element name="R308" library="SaintGimp" package="AXIAL-7.5MM" value="10k" x="43.18" y="70.485" smashed="yes" rot="R90">
+<attribute name="NAME" x="43.561" y="65.532" size="0.8128" layer="25" rot="R180" align="bottom-center"/>
+<attribute name="VALUE" x="43.688" y="70.485" size="0.8128" layer="21" ratio="10" rot="R90" align="bottom-center"/>
+</element>
 <element name="R401" library="SaintGimp" package="AXIAL-7.5MM" value="47k" x="36.83" y="24.765" rot="R90"/>
 <element name="RV301" library="SaintGimp" package="TRIM_POT" value="250K" x="27.94" y="59.055"/>
 <element name="RV302" library="SaintGimp" package="TRIM_POT" value="250K" x="41.91" y="59.055"/>
@@ -962,19 +1138,29 @@ Please make sure your boards conform to these design rules.</description>
 <element name="RV501" library="SaintGimp" package="TRIM_POT" value="100K" x="55.88" y="59.055"/>
 <element name="RV801" library="SaintGimp" package="TRIM_POT" value="1K" x="35.56" y="13.97"/>
 <element name="RV101" library="SaintGimp" package="TRIM_POT" value="1k" x="66.04" y="83.82" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.596" y="88.138" size="0.8128" layer="21" rot="R270"/>
+<attribute name="NAME" x="61.976" y="85.598" size="0.8128" layer="21" rot="R270"/>
 <attribute name="VALUE" x="67.691" y="82.804" size="0.8128" layer="21" rot="R270"/>
 </element>
 <element name="RV102" library="SaintGimp" package="TRIM_POT" value="1k" x="66.04" y="97.79" smashed="yes" rot="R270">
-<attribute name="NAME" x="69.596" y="102.108" size="0.8128" layer="21" rot="R270"/>
+<attribute name="NAME" x="61.976" y="99.568" size="0.8128" layer="21" rot="R270"/>
 <attribute name="VALUE" x="67.691" y="96.774" size="0.8128" layer="21" rot="R270"/>
 </element>
-<element name="TP401" library="SaintGimp" package="1X01" value="TESTPOINT-TH" x="29.21" y="31.115"/>
-<element name="TP402" library="SaintGimp" package="1X01" value="TESTPOINT-TH" x="49.53" y="20.955" rot="R270"/>
+<element name="TP401" library="SaintGimp" package="1X01" value="TESTPOINT-TH" x="29.21" y="31.115" smashed="yes">
+<attribute name="NAME" x="27.44915" y="29.4729375" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="27.94" y="28.7441625" size="0.8128" layer="27"/>
+</element>
+<element name="TP402" library="SaintGimp" package="1X01" value="TESTPOINT-TH" x="49.53" y="20.955" smashed="yes" rot="R270">
+<attribute name="NAME" x="48.87785" y="25.7720625" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="47.1591625" y="22.225" size="0.8128" layer="27" rot="R270"/>
+</element>
 <element name="TP403" library="SaintGimp" package="1X01" value="TESTPOINT-TH" x="58.42" y="48.895" rot="R270"/>
 <element name="IC9" library="SaintGimp" package="PHOTON" value="PHOTON" x="10.16" y="15.875"/>
-<element name="X201" library="SaintGimp" package="5414373" value="5414373" x="2.54" y="66.675" rot="R90"/>
-<element name="X301" library="SaintGimp" package="5414373" value="5414373" x="2.54" y="45.085" rot="R90"/>
+<element name="X201" library="SaintGimp" package="5414373" value="5414373" x="2.54" y="66.675" smashed="yes" rot="R90">
+<attribute name="NAME" x="7.239" y="73.406" size="0.8128" layer="25" align="bottom-center"/>
+</element>
+<element name="X301" library="SaintGimp" package="5414373" value="5414373" x="2.54" y="45.085" smashed="yes" rot="R90">
+<attribute name="NAME" x="4.953" y="51.816" size="0.8128" layer="25" align="bottom-center"/>
+</element>
 <element name="U$1" library="SaintGimp" package="MOUNTING-HOLE-3.2MM" value="" x="6.985" y="55.88"/>
 <element name="U$2" library="SaintGimp" package="MOUNTING-HOLE-3.2MM" value="" x="55.245" y="13.335"/>
 <element name="U$3" library="SaintGimp" package="MOUNTING-HOLE-3.2MM" value="" x="57.15" y="93.98"/>
@@ -1048,9 +1234,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="D102" pad="1"/>
 <contactref element="IC2" pad="2"/>
 <contactref element="D104" pad="1"/>
-<wire x1="13.97" y1="92.71" x2="20.955" y2="99.695" width="0.381" layer="1"/>
-<wire x1="20.955" y1="99.695" x2="22.86" y2="99.695" width="0.381" layer="1"/>
-<wire x1="22.86" y1="99.695" x2="27.305" y2="95.25" width="0.381" layer="1"/>
+<wire x1="27.305" y1="95.25" x2="22.86" y2="99.695" width="0.381" layer="1"/>
 <wire x1="27.305" y1="95.25" x2="31.75" y2="95.25" width="0.381" layer="1"/>
 <wire x1="31.75" y1="95.25" x2="31.75" y2="99.695" width="0.381" layer="1"/>
 <wire x1="31.75" y1="99.695" x2="35.56" y2="103.505" width="0.381" layer="1"/>
@@ -1059,6 +1243,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="39.37" y1="100.965" x2="39.37" y2="102.235" width="0.381" layer="1"/>
 <wire x1="43.815" y1="95.885" x2="39.37" y2="100.33" width="0.381" layer="1"/>
 <wire x1="39.37" y1="100.33" x2="39.37" y2="100.965" width="0.381" layer="1"/>
+<wire x1="22.86" y1="99.695" x2="20.955" y2="101.6" width="0.381" layer="1"/>
+<wire x1="20.955" y1="101.6" x2="13.97" y2="101.6" width="0.381" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="D101" pad="2"/>
@@ -1078,12 +1264,13 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="J101" pad="PWR"/>
 <contactref element="D101" pad="1"/>
 <contactref element="D102" pad="2"/>
-<wire x1="13.97" y1="101.6" x2="10.525" y2="101.6" width="0.381" layer="1"/>
-<wire x1="10.525" y1="101.6" x2="8.62" y2="99.695" width="0.381" layer="1"/>
-<wire x1="8.62" y1="99.695" x2="8.62" y2="96.155" width="0.381" layer="1"/>
+<wire x1="8.62" y1="96.155" x2="8.62" y2="99.695" width="0.381" layer="1"/>
 <wire x1="8.62" y1="96.155" x2="10.16" y2="94.615" width="0.381" layer="1"/>
 <wire x1="10.16" y1="94.615" x2="10.16" y2="91.44" width="0.381" layer="1"/>
 <wire x1="10.16" y1="91.44" x2="13.97" y2="87.63" width="0.381" layer="1"/>
+<wire x1="8.62" y1="99.695" x2="12.065" y2="99.695" width="0.381" layer="1"/>
+<wire x1="12.065" y1="99.695" x2="13.97" y2="97.79" width="0.381" layer="1"/>
+<wire x1="13.97" y1="97.79" x2="13.97" y2="92.71" width="0.381" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="C109" pad="1"/>
@@ -1105,8 +1292,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC9" pad="1"/>
 <contactref element="C1002" pad="+"/>
 <contactref element="C1001" pad="1"/>
-<wire x1="43.815" y1="78.105" x2="43.815" y2="81.915" width="0.381" layer="1"/>
-<wire x1="43.815" y1="81.915" x2="45.875" y2="83.975" width="0.381" layer="1"/>
+<wire x1="45.875" y1="83.975" x2="43.815" y2="81.915" width="0.381" layer="1"/>
 <wire x1="45.875" y1="83.975" x2="49.53" y2="83.975" width="0.381" layer="1"/>
 <wire x1="49.53" y1="83.975" x2="50.8" y2="82.705" width="0.381" layer="1"/>
 <wire x1="50.8" y1="82.705" x2="50.8" y2="79.375" width="0.381" layer="1"/>
@@ -1158,19 +1344,21 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="52.07" y1="62.865" x2="52.07" y2="52.705" width="0.381" layer="1"/>
 <wire x1="3.81" y1="32.385" x2="1.27" y2="29.845" width="0.381" layer="1"/>
 <wire x1="3.81" y1="36.83" x2="3.81" y2="32.385" width="0.381" layer="1"/>
+<wire x1="43.815" y1="81.915" x2="40.005" y2="78.105" width="0.381" layer="1"/>
+<wire x1="40.005" y1="78.105" x2="34.925" y2="78.105" width="0.381" layer="1"/>
 </signal>
 <signal name="N$61">
 <contactref element="IC1" pad="1"/>
 <contactref element="RV101" pad="3"/>
 <contactref element="R101" pad="P$1"/>
 <contactref element="C105" pad="+"/>
-<wire x1="44.45" y1="89.535" x2="41.91" y2="86.995" width="0.254" layer="1"/>
-<wire x1="57.15" y1="86.995" x2="54.61" y2="89.535" width="0.254" layer="1"/>
-<wire x1="54.61" y1="89.535" x2="44.45" y2="89.535" width="0.254" layer="1"/>
-<wire x1="62.23" y1="78.105" x2="62.23" y2="81.915" width="0.254" layer="1"/>
-<wire x1="62.23" y1="81.915" x2="57.15" y2="86.995" width="0.254" layer="1"/>
+<wire x1="41.91" y1="86.995" x2="44.45" y2="89.535" width="0.254" layer="1"/>
 <wire x1="64.262" y1="81.28" x2="64.262" y2="80.137" width="0.254" layer="1"/>
 <wire x1="64.262" y1="80.137" x2="62.23" y2="78.105" width="0.254" layer="1"/>
+<wire x1="44.45" y1="89.535" x2="52.07" y2="89.535" width="0.254" layer="1"/>
+<wire x1="52.07" y1="89.535" x2="57.15" y2="84.455" width="0.254" layer="1"/>
+<wire x1="57.15" y1="84.455" x2="61.087" y2="84.455" width="0.254" layer="1"/>
+<wire x1="61.087" y1="84.455" x2="64.262" y2="81.28" width="0.254" layer="1"/>
 </signal>
 <signal name="N$63">
 <contactref element="IC2" pad="1"/>
@@ -1737,8 +1925,7 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="IC7" pad="4"/>
 <contactref element="IC8" pad="4"/>
 <wire x1="36.83" y1="100.965" x2="34.925" y2="99.06" width="0.381" layer="1"/>
-<wire x1="34.925" y1="99.06" x2="34.925" y2="95.885" width="0.381" layer="1"/>
-<wire x1="34.925" y1="95.885" x2="34.925" y2="92.075" width="0.381" layer="1"/>
+<wire x1="34.925" y1="95.885" x2="34.925" y2="99.06" width="0.381" layer="1"/>
 <wire x1="50.32" y1="101.445" x2="49.53" y2="101.445" width="0.381" layer="1"/>
 <wire x1="50.32" y1="101.445" x2="52.07" y2="99.695" width="0.381" layer="1"/>
 <wire x1="52.07" y1="99.695" x2="52.07" y2="94.615" width="0.381" layer="1"/>
@@ -1749,11 +1936,8 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="42.545" y1="93.98" x2="36.83" y2="99.695" width="0.381" layer="1"/>
 <wire x1="36.83" y1="99.695" x2="36.83" y2="100.965" width="0.381" layer="1"/>
 <wire x1="45.085" y1="93.98" x2="42.545" y2="93.98" width="0.381" layer="1"/>
-<wire x1="64.77" y1="89.535" x2="65.0875" y2="89.2175" width="0.381" layer="1"/>
-<wire x1="65.0875" y1="89.2175" x2="68.58" y2="85.725" width="0.381" layer="1"/>
-<wire x1="34.925" y1="92.075" x2="32.385" y2="89.535" width="0.381" layer="1"/>
-<wire x1="32.385" y1="89.535" x2="21.59" y2="89.535" width="0.381" layer="1"/>
-<wire x1="21.59" y1="89.535" x2="16.51" y2="84.455" width="0.381" layer="1"/>
+<wire x1="63.5" y1="90.805" x2="68.58" y2="85.725" width="0.381" layer="1"/>
+<wire x1="16.51" y1="84.455" x2="21.59" y2="89.535" width="0.381" layer="1"/>
 <wire x1="16.51" y1="84.455" x2="7.62" y2="84.455" width="0.381" layer="1"/>
 <wire x1="7.62" y1="84.455" x2="7.62" y2="86.995" width="0.381" layer="1"/>
 <wire x1="68.58" y1="85.725" x2="68.58" y2="53.975" width="0.381" layer="1"/>
@@ -1790,10 +1974,13 @@ Please make sure your boards conform to these design rules.</description>
 <via x="50.8" y="53.34" extent="1-16" drill="0.35"/>
 <wire x1="24.765" y1="53.34" x2="50.8" y2="53.34" width="0.381" layer="1"/>
 <wire x1="50.8" y1="53.34" x2="50.8" y2="64.135" width="0.381" layer="1"/>
-<wire x1="65.0875" y1="89.2175" x2="63.5" y2="90.805" width="0.381" layer="1"/>
 <wire x1="63.5" y1="90.805" x2="60.325" y2="90.805" width="0.381" layer="1"/>
 <wire x1="60.325" y1="90.805" x2="53.34" y2="90.805" width="0.381" layer="1"/>
 <wire x1="53.34" y1="90.805" x2="50.8" y2="93.345" width="0.381" layer="1"/>
+<wire x1="41.275" y1="89.535" x2="43.815" y2="92.075" width="0.381" layer="1"/>
+<wire x1="21.59" y1="89.535" x2="41.275" y2="89.535" width="0.381" layer="1"/>
+<wire x1="43.815" y1="92.075" x2="38.735" y2="92.075" width="0.381" layer="1"/>
+<wire x1="38.735" y1="92.075" x2="34.925" y2="95.885" width="0.381" layer="1"/>
 </signal>
 <signal name="N$39">
 <contactref element="IC8" pad="7"/>

@@ -715,8 +715,8 @@ TE Connectivity 5414373-1</description>
 <wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.54" width="0.1524" layer="21"/>
 <pad name="1" x="0" y="-1.27" drill="0.9144" shape="long"/>
 <pad name="2" x="0" y="1.27" drill="0.9144" shape="long"/>
-<text x="-1.651" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="2.921" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<text x="-1.651" y="0" size="0.8128" layer="25" ratio="10" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="1.651" y="0" size="0.8128" layer="27" ratio="10" rot="R90" align="top-center">&gt;VALUE</text>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
