@@ -2,3 +2,4 @@
 *.s#*
 *.pro
 *.job
+.DS_Store

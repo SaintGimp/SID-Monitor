@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1904,18 +1904,18 @@ chip</description>
 <part name="GND211" library="SaintGimp" deviceset="GND" device=""/>
 <part name="JP401" library="SaintGimp" deviceset="JUMPER1" device=""/>
 <part name="IC5" library="SaintGimp" deviceset="MAX275" device="ACP"/>
-<part name="R401" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="47k"/>
-<part name="R402" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
-<part name="R403" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="30.9k"/>
-<part name="R404" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="28.7k"/>
-<part name="RV401" library="SaintGimp" deviceset="POT" device="TRIM" value="5K"/>
+<part name="R401" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="120k"/>
+<part name="R402" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="360k"/>
+<part name="R403" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
+<part name="R404" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
+<part name="RV401" library="SaintGimp" deviceset="POT" device="TRIM" value="10k"/>
 <part name="JP402" library="SaintGimp" deviceset="JUMPER1" device=""/>
 <part name="C405" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
-<part name="R406" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="47k"/>
-<part name="R405" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="28.7k"/>
-<part name="R407" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
-<part name="R408" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="30.9k"/>
-<part name="RV402" library="SaintGimp" deviceset="POT" device="TRIM" value="5K"/>
+<part name="R406" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="120k"/>
+<part name="R405" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
+<part name="R407" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="360k"/>
+<part name="R408" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="75k"/>
+<part name="RV402" library="SaintGimp" deviceset="POT" device="TRIM" value="10k"/>
 <part name="P-208" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="P-210" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="P+209" library="SaintGimp" deviceset="+5V" device=""/>
@@ -1939,7 +1939,7 @@ chip</description>
 <part name="TP403" library="SaintGimp" deviceset="TESTPOINT-*" device="TH"/>
 <part name="X301" library="SaintGimp" deviceset="5414373" device=""/>
 <part name="GND212" library="SaintGimp" deviceset="GND" device=""/>
-<part name="R309" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="51"/>
+<part name="R309" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="49.9"/>
 <part name="IC6" library="SaintGimp" deviceset="TLE2082" device=""/>
 <part name="R602" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="10k"/>
 <part name="R601" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="3.3k"/>
@@ -1963,7 +1963,7 @@ chip</description>
 <part name="GND209" library="SaintGimp" deviceset="GND" device=""/>
 <part name="P+204" library="SaintGimp" deviceset="+5V" device=""/>
 <part name="R803" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="47k"/>
-<part name="RV801" library="SaintGimp" deviceset="POT" device="TRIM" value="1K"/>
+<part name="RV801" library="SaintGimp" deviceset="POT" device="TRIM" value="1k"/>
 <part name="R804" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="47k"/>
 <part name="P-204" library="SaintGimp" deviceset="-5V" device=""/>
 <part name="R805" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="1M"/>
@@ -1992,10 +1992,10 @@ chip</description>
 <part name="C1001" library="SaintGimp" deviceset="CAPACITOR" device="-2.5MM" value="0.1uF"/>
 <part name="RV101" library="SaintGimp" deviceset="POT" device="TRIM" value="1k"/>
 <part name="C105" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-2.5-5" value="10uf"/>
-<part name="R101" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="240"/>
+<part name="R101" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="270"/>
 <part name="RV102" library="SaintGimp" deviceset="POT" device="TRIM" value="1k"/>
 <part name="C106" library="SaintGimp" deviceset="CAPACITOR-POLARIZED" device="-2.5-5" value="10uf"/>
-<part name="R102" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="240"/>
+<part name="R102" library="SaintGimp" deviceset="RESISTOR-*" device="7.5MM" value="270"/>
 <part name="GND1" library="SaintGimp" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -2087,6 +2087,8 @@ chip</description>
 <pinref part="RV102" gate="G$1" pin="E"/>
 <pinref part="C106" gate="G$1" pin="+"/>
 <wire x1="58.42" y1="48.26" x2="58.42" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="RV102" gate="G$1" pin="S"/>
+<wire x1="48.26" y1="43.18" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J101" gate="G$1" pin="GNDBREAK"/>
