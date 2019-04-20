@@ -2,4 +2,7 @@
 *.s#*
 *.pro
 *.job
+target/
 .DS_Store
+*firmware*.bin
+ipch/
