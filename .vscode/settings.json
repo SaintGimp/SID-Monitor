@@ -4,5 +4,6 @@
     "files.associations": {
         "*.ino": "cpp"
     },
-    "particle.targetDevice": "SID-Monitor"
+    "particle.targetDevice": "SID-Monitor",
+    "cortex-debug.openocdPath": "${command:particle.getDebuggerOpenocdPath}"
 }
