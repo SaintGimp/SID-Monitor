@@ -6,3 +6,7 @@ target/
 .DS_Store
 *firmware*.bin
 ipch/
+
+*.sch-bak
+*.kicad_pcb-bak
+fp-info-cache

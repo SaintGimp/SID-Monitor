@@ -9,10 +9,12 @@ SYSTEM_THREAD(ENABLED);
 
 SerialLogHandler logHandler;
 
-const unsigned long UPDATE_PERIOD_MS = 20;
+// Sample frequency needs to be twice the highest frequency we intend to measure
+// The MCU can support up to 200K with an acquisition time (set below) of 3us
+const size_t SAMPLE_FREQ = 100000; // Hz
 
-const size_t SAMPLE_FREQ = 200000; // Hz
-
+// Size of outout data set will be buffer size / 2 because the second half of
+// the buffer is negative frequency data
 const size_t SAMPLES_IN_BUFFER = 1024;
 
 static nrf_saadc_value_t buffer[SAMPLES_IN_BUFFER * 2];
@@ -59,6 +61,8 @@ void setup() {
 
 void loop() {
   if (bufferReady) {
+    Log.info("begin");
+
     digitalWrite(D7, HIGH);
     int16_t *src = (int16_t *)bufferReady;
     bufferReady = 0;
@@ -78,17 +82,20 @@ void loop() {
     // frequency, which is 1/2 the sampling frequency.
     // (The top half of the buffer is the negative frequencies, which we ignore.)
     // Start at 1 to ignore the DC component
-    // for (size_t ii = 1; ii < SAMPLES_IN_BUFFER / 2; ii++) {
-    //   int freq = ii * SAMPLE_FREQ / SAMPLES_IN_BUFFER;
-    //   double value = std::abs(complexSamples[ii]) / SAMPLES_IN_BUFFER;
+    for (size_t ii = 1; ii < SAMPLES_IN_BUFFER / 2; ii++) {
+      int freq = ii * SAMPLE_FREQ / SAMPLES_IN_BUFFER;
+      double value = std::abs(complexSamples[ii]) / SAMPLES_IN_BUFFER * 2;
 
-    //   if (value > 10)
-    //   {
-    //     Log.info("[%d] %d - %f", ii, freq, value);
-    //   }
-    // }
+      // Try the other FFT library to see if it also has changing magnitude when
+      // we add more signals
+      
+      if (value > 10)
+      {
+        Log.info("[%d] %d - %f", ii, freq, value);
+      }
+    }
   
 
-    //Log.info("done");
+    Log.info("end");
   }
 }

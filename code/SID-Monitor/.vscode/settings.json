@@ -7,5 +7,6 @@
         "complex": "cpp",
         "cmath": "cpp"
     },
-    "particle.targetPlatform": "xenon"
+    "particle.targetPlatform": "xenon",
+    "particle.firmwareVersion": "1.5.2"
 }
